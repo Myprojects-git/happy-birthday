@@ -138,3 +138,6 @@ p {
     background: rgb(195,34,34);
 background: linear-gradient(106deg, rgba(195,34,34,1) 0%, rgba(255,149,0,1) 100%);
  }
+.qus {
+    text-align: center;
+}
