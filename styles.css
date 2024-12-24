@@ -1,0 +1,140 @@
+.page-header {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+h2 {
+    font-family: "Open sans", sans-serif;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+svg {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.container {
+    width: 320px;
+    height: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+}
+@media screen and (min-width: 1158px) {
+    .container {
+        width: 1158px;
+        display: flex;
+    }
+}
+p {
+        font-size: 20px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+        font-family: "Open sans", sans-serif;
+        margin-left: 20px;
+        max-width: 300px;
+}
+ @media screen and (min-width: 768px) {
+    p {
+        max-width: 740px;
+    }
+}
+@media screen and (min-width: 1158px) {
+    p {
+        max-width: 1120px;
+    }
+} 
+ img {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 320px;
+    height: 280px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+ }    
+ @media screen and (min-width: 768px) {
+    img {
+        width: 708px;
+        height: 500px;
+    }
+ }
+ @media screen and (min-width: 1158px) {
+    img {
+        width: 700px;
+        height: 330px;
+    }
+ }
+ p:nth-child(1) {
+    margin-right: 30px;
+ }
+ .pager {
+    width: 310px;
+    height: auto;
+    background-color: lightgray;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    opacity: 0.9;
+    align-items: center;
+    justify-content: center;
+ }
+ @media screen and (min-width: 768px) {
+    .pager {
+        width: 758px;
+    }
+ }
+
+ @media screen and (min-width: 1158px) {
+    .pager {
+        width: 1000px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+ }
+ footer {
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 30px;
+ }
+ h3 {
+        font-family: "Open sans", sans-serif;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+ }
+ .parag {
+            font-family: "Open sans", sans-serif;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: 0.08em;
+    color: white;
+    align-items: center;
+    text-align: center;
+ }
+ main {
+    padding-bottom: 30px;
+    padding-top: 10px;
+    background: rgb(195,34,34);
+background: linear-gradient(106deg, rgba(195,34,34,1) 0%, rgba(255,149,0,1) 100%);
+ }
